@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10F6B97220B87F0500FB5063 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F6B97120B87F0500FB5063 /* AppDelegate.swift */; };
+		10F6B97420B87F0500FB5063 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F6B97320B87F0500FB5063 /* ViewController.swift */; };
+		10F6B97720B87F0500FB5063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F6B97520B87F0500FB5063 /* Main.storyboard */; };
+		10F6B97920B87F0600FB5063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10F6B97820B87F0600FB5063 /* Assets.xcassets */; };
+		10F6B97C20B87F0600FB5063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10F6B97A20B87F0600FB5063 /* LaunchScreen.storyboard */; };
+		10F6B98720B87F0600FB5063 /* nps_guideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F6B98620B87F0600FB5063 /* nps_guideTests.swift */; };
+		68CC02BCADC1B6F3C1309FC4 /* Pods_nps_guide.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55E9FCC38E7D27D24B4E1ECD /* Pods_nps_guide.framework */; };
+		7F605FAB92C19214062AE628 /* Pods_nps_guideTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E453E906D728DE1AEB8F1E2F /* Pods_nps_guideTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10F6B98320B87F0600FB5063 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10F6B96620B87F0500FB5063 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10F6B96D20B87F0500FB5063;
+			remoteInfo = "nps-guide";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10F6B96E20B87F0500FB5063 /* nps-guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nps-guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F6B97120B87F0500FB5063 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10F6B97320B87F0500FB5063 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10F6B97620B87F0500FB5063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10F6B97820B87F0600FB5063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10F6B97B20B87F0600FB5063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10F6B97D20B87F0600FB5063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10F6B98220B87F0600FB5063 /* nps-guideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nps-guideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10F6B98620B87F0600FB5063 /* nps_guideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nps_guideTests.swift; sourceTree = "<group>"; };
+		10F6B98820B87F0600FB5063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D8F708B3C5E5416A5A8D35C /* Pods-nps-guideTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nps-guideTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-nps-guideTests/Pods-nps-guideTests.release.xcconfig"; sourceTree = "<group>"; };
+		3AA2DC308EC099B2893C9FA7 /* Pods-nps-guide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nps-guide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nps-guide/Pods-nps-guide.debug.xcconfig"; sourceTree = "<group>"; };
+		55E9FCC38E7D27D24B4E1ECD /* Pods_nps_guide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nps_guide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C42F85D8D3F19168124AC23 /* Pods-nps-guide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nps-guide.release.xcconfig"; path = "Pods/Target Support Files/Pods-nps-guide/Pods-nps-guide.release.xcconfig"; sourceTree = "<group>"; };
+		C875E8770D5212D26DCDA946 /* Pods-nps-guideTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nps-guideTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nps-guideTests/Pods-nps-guideTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E453E906D728DE1AEB8F1E2F /* Pods_nps_guideTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nps_guideTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10F6B96B20B87F0500FB5063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CC02BCADC1B6F3C1309FC4 /* Pods_nps_guide.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F6B97F20B87F0600FB5063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F605FAB92C19214062AE628 /* Pods_nps_guideTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10F6B96520B87F0500FB5063 = {
+			isa = PBXGroup;
+			children = (
+				10F6B97020B87F0500FB5063 /* nps-guide */,
+				10F6B98520B87F0600FB5063 /* nps-guideTests */,
+				10F6B96F20B87F0500FB5063 /* Products */,
+				B893DD1C5E56BEA8C362874A /* Pods */,
+				137C72BDF0C5C85C1BD15A63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10F6B96F20B87F0500FB5063 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10F6B96E20B87F0500FB5063 /* nps-guide.app */,
+				10F6B98220B87F0600FB5063 /* nps-guideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10F6B97020B87F0500FB5063 /* nps-guide */ = {
+			isa = PBXGroup;
+			children = (
+				10F6B97120B87F0500FB5063 /* AppDelegate.swift */,
+				10F6B97320B87F0500FB5063 /* ViewController.swift */,
+				10F6B97520B87F0500FB5063 /* Main.storyboard */,
+				10F6B97820B87F0600FB5063 /* Assets.xcassets */,
+				10F6B97A20B87F0600FB5063 /* LaunchScreen.storyboard */,
+				10F6B97D20B87F0600FB5063 /* Info.plist */,
+			);
+			path = "nps-guide";
+			sourceTree = "<group>";
+		};
+		10F6B98520B87F0600FB5063 /* nps-guideTests */ = {
+			isa = PBXGroup;
+			children = (
+				10F6B98620B87F0600FB5063 /* nps_guideTests.swift */,
+				10F6B98820B87F0600FB5063 /* Info.plist */,
+			);
+			path = "nps-guideTests";
+			sourceTree = "<group>";
+		};
+		137C72BDF0C5C85C1BD15A63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55E9FCC38E7D27D24B4E1ECD /* Pods_nps_guide.framework */,
+				E453E906D728DE1AEB8F1E2F /* Pods_nps_guideTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B893DD1C5E56BEA8C362874A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AA2DC308EC099B2893C9FA7 /* Pods-nps-guide.debug.xcconfig */,
+				9C42F85D8D3F19168124AC23 /* Pods-nps-guide.release.xcconfig */,
+				C875E8770D5212D26DCDA946 /* Pods-nps-guideTests.debug.xcconfig */,
+				2D8F708B3C5E5416A5A8D35C /* Pods-nps-guideTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10F6B96D20B87F0500FB5063 /* nps-guide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10F6B98B20B87F0600FB5063 /* Build configuration list for PBXNativeTarget "nps-guide" */;
+			buildPhases = (
+				45B8D29569EB1AC1E1DBAC93 /* [CP] Check Pods Manifest.lock */,
+				10F6B96A20B87F0500FB5063 /* Sources */,
+				10F6B96B20B87F0500FB5063 /* Frameworks */,
+				10F6B96C20B87F0500FB5063 /* Resources */,
+				1151A556B6A0940CAED9D9C1 /* [CP] Embed Pods Frameworks */,
+				06DBFEF65AE4ECA568A9CA33 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nps-guide";
+			productName = "nps-guide";
+			productReference = 10F6B96E20B87F0500FB5063 /* nps-guide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10F6B98120B87F0600FB5063 /* nps-guideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10F6B98E20B87F0600FB5063 /* Build configuration list for PBXNativeTarget "nps-guideTests" */;
+			buildPhases = (
+				5E9781E1138CD66511787D7B /* [CP] Check Pods Manifest.lock */,
+				10F6B97E20B87F0600FB5063 /* Sources */,
+				10F6B97F20B87F0600FB5063 /* Frameworks */,
+				10F6B98020B87F0600FB5063 /* Resources */,
+				91A7630119240DFCF675C821 /* [CP] Embed Pods Frameworks */,
+				38F5F005268FE1E2CE35CA09 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10F6B98420B87F0600FB5063 /* PBXTargetDependency */,
+			);
+			name = "nps-guideTests";
+			productName = "nps-guideTests";
+			productReference = 10F6B98220B87F0600FB5063 /* nps-guideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10F6B96620B87F0500FB5063 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Khan, Mohammad Irteza";
+				TargetAttributes = {
+					10F6B96D20B87F0500FB5063 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					10F6B98120B87F0600FB5063 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 10F6B96D20B87F0500FB5063;
+					};
+				};
+			};
+			buildConfigurationList = 10F6B96920B87F0500FB5063 /* Build configuration list for PBXProject "nps-guide" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10F6B96520B87F0500FB5063;
+			productRefGroup = 10F6B96F20B87F0500FB5063 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10F6B96D20B87F0500FB5063 /* nps-guide */,
+				10F6B98120B87F0600FB5063 /* nps-guideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10F6B96C20B87F0500FB5063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F6B97C20B87F0600FB5063 /* LaunchScreen.storyboard in Resources */,
+				10F6B97920B87F0600FB5063 /* Assets.xcassets in Resources */,
+				10F6B97720B87F0500FB5063 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F6B98020B87F0600FB5063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06DBFEF65AE4ECA568A9CA33 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nps-guide/Pods-nps-guide-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1151A556B6A0940CAED9D9C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-nps-guide/Pods-nps-guide-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nps-guide/Pods-nps-guide-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38F5F005268FE1E2CE35CA09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nps-guideTests/Pods-nps-guideTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45B8D29569EB1AC1E1DBAC93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nps-guide-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E9781E1138CD66511787D7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nps-guideTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91A7630119240DFCF675C821 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-nps-guideTests/Pods-nps-guideTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10F6B96A20B87F0500FB5063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F6B97420B87F0500FB5063 /* ViewController.swift in Sources */,
+				10F6B97220B87F0500FB5063 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10F6B97E20B87F0600FB5063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F6B98720B87F0600FB5063 /* nps_guideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10F6B98420B87F0600FB5063 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10F6B96D20B87F0500FB5063 /* nps-guide */;
+			targetProxy = 10F6B98320B87F0600FB5063 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10F6B97520B87F0500FB5063 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10F6B97620B87F0500FB5063 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		10F6B97A20B87F0600FB5063 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10F6B97B20B87F0600FB5063 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10F6B98920B87F0600FB5063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10F6B98A20B87F0600FB5063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10F6B98C20B87F0600FB5063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AA2DC308EC099B2893C9FA7 /* Pods-nps-guide.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YU39WUVXB;
+				INFOPLIST_FILE = "nps-guide/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.irteza.NPS-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10F6B98D20B87F0600FB5063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C42F85D8D3F19168124AC23 /* Pods-nps-guide.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YU39WUVXB;
+				INFOPLIST_FILE = "nps-guide/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.irteza.NPS-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10F6B98F20B87F0600FB5063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C875E8770D5212D26DCDA946 /* Pods-nps-guideTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YU39WUVXB;
+				INFOPLIST_FILE = "nps-guideTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.irteza.nps-guideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nps-guide.app/nps-guide";
+			};
+			name = Debug;
+		};
+		10F6B99020B87F0600FB5063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8F708B3C5E5416A5A8D35C /* Pods-nps-guideTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4YU39WUVXB;
+				INFOPLIST_FILE = "nps-guideTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.irteza.nps-guideTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nps-guide.app/nps-guide";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10F6B96920B87F0500FB5063 /* Build configuration list for PBXProject "nps-guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F6B98920B87F0600FB5063 /* Debug */,
+				10F6B98A20B87F0600FB5063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10F6B98B20B87F0600FB5063 /* Build configuration list for PBXNativeTarget "nps-guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F6B98C20B87F0600FB5063 /* Debug */,
+				10F6B98D20B87F0600FB5063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10F6B98E20B87F0600FB5063 /* Build configuration list for PBXNativeTarget "nps-guideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10F6B98F20B87F0600FB5063 /* Debug */,
+				10F6B99020B87F0600FB5063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10F6B96620B87F0500FB5063 /* Project object */;
+}
